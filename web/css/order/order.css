@@ -1,0 +1,154 @@
+/* pages/querenyue/querenyue.wxss */
+
+page {
+  height: 100%;
+  /* background-color: #f7f7f7; */
+  background-color: rgba(235, 99, 99, 0.008);
+}
+
+.querenyue-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.querenyue-head {
+  font-size: 14px;
+  color: #a8a8a8;
+  padding-left: 16px;
+  padding-bottom: 7.5px;
+}
+
+.querenyue-items {
+  border-radius: 5px;
+height: auto;
+  width: 90%;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 2px 5px 3px rgba(235, 99, 99, 0.1);
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+.querenyue-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 66px;
+  /* border: 1px solid #e4e4e4; */
+  border-bottom: 1px solid #e4e4e4;
+  justify-content: space-between;
+padding-right: 20px;
+}
+
+.info-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.info-name {
+  display: inline-block;
+  font-size: 15px;
+  color: #fe5454;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  vertical-align: middle;
+  /* text-align: center; */
+}
+
+.copy-num {
+ /*display: flex;
+justify-content: flex-end;*/
+float: right;
+  height: 24px;
+  background-color: #fff;
+  border: 1px solid #FE5454;
+  font-size: 10px;
+  color: #fe5454;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.querenyue-detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.detail-more {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.detail-more-name {
+  font-size: 18px;
+  padding-left: 16px;
+  color: #d6d6d6;
+}
+
+.detail-your-name1 {
+  margin-left: 42px;
+  font-size: 16px;
+  color: #6f6f6f;
+  vertical-align: middle;
+}
+
+.detail-your-name {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #6f6f6f;
+  vertical-align: middle;
+}
+.querenyue-sure-container
+{
+	width: 100px;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 6px;
+
+}
+
+.querenyue-detail-items
+{
+	/*line-height: 50px;*/
+	padding-bottom: 8px;
+}
+
+.querenyue-sure {
+  width: 100px;
+  height: 34px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #fe5454;
+  border-radius: 25px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.querenyue-had {
+  width: 100px;
+  height: 34px;
+  font-size: 15px;
+  /* color: #fff;
+  background-color: #fe5454; */
+  border-radius: 25px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.querenyue-past {
+  width: 100px;
+  height: 34px;
+  font-size: 15px;
+  /* color: #fff; */
+  /* background-color: #fe5454; */
+  border-radius: 25px;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+}

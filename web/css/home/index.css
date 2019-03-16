@@ -1,0 +1,347 @@
+.index-title
+{
+    /*margin-top: 2.5rem;*/
+    /*padding-top: 2.5rem;*/
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.67rem;
+    font-family: "微软雅黑";
+}
+.index-subtitle
+{
+    margin-top: 0.67rem;
+    text-align: center;
+    font-size: 0.4rem;
+    font-family: "微软雅黑";
+
+}
+
+.v-top-create {
+    width: 6rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 60px;
+}
+.index-btn
+{
+    width: 6rem;
+    height: 40px;
+    font-size: 0.48rem;
+}
+
+/*下半部分*/
+.mui-card-container{
+    margin-bottom: 60px;
+}
+
+
+
+/*我的页面*/
+
+.m-user-info
+{
+    width: 100vw;
+    height: 38vh;
+    /*background-color: #2aabd2;*/
+    background: url("../images/mine-bg1.png") 0 0 no-repeat;
+    background-size: cover;
+    /*background-size: 100%;*/
+    position: relative;
+}
+
+.user-photo
+{
+    position: relative;
+    width: 82px;
+    height: 82px;
+    padding-top: 82px;
+    margin: 0 auto;
+}
+.user-photo-img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    border: solid 5px rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+.user-name
+{
+    text-align: center;
+    color: #fff;
+    margin-top:90px;
+    font-size: 15px;
+}
+.user-nick
+{
+    text-align: center;
+    color: #fff;
+    margin-top:0.06rem;
+    font-size: 13px;
+    color: #f2f2f2;
+}
+
+.mui-scroll-wrapper1 {
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*top: 0;*/
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%
+}
+
+.mui-page-content {
+    /*				position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;*/
+    width: 100%;
+    /*height: 100%;*/
+    background-color: #efeff4;
+}
+.mui-pages {
+    top: 46px;
+    height: auto;
+}
+.mui-scroll-wrapper,
+.mui-scroll {
+    background-color: #fff;
+}
+.mui-page.mui-transitioning {
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: transform 300ms ease;
+}
+.mui-page-left {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.mui-ios .mui-page-left {
+    -webkit-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0);
+}
+.mui-navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 44px;
+    background-color: #f7f7f8;
+}
+.mui-navbar .mui-bar {
+    position: absolute;
+    background: transparent;
+    text-align: center;
+}
+.mui-android .mui-navbar-inner.mui-navbar-left {
+    opacity: 0;
+}
+.mui-ios .mui-navbar-left .mui-left,
+.mui-ios .mui-navbar-left .mui-center,
+.mui-ios .mui-navbar-left .mui-right {
+    opacity: 0;
+}
+.mui-navbar .mui-btn-nav {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transition-duration: .0s;
+    transition-duration: .0s;
+}
+.mui-navbar .mui-bar .mui-title {
+    display: inline-block;
+    width: auto;
+}
+.mui-page-shadow {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 16px;
+    height: 100%;
+    z-index: -1;
+    content: '';
+}
+.mui-page-shadow {
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);
+}
+.mui-navbar-inner.mui-transitioning,
+.mui-navbar-inner .mui-transitioning {
+    -webkit-transition: opacity 300ms ease, -webkit-transform 300ms ease;
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+.mui-page {
+    display: none;
+}
+.mui-pages .mui-page {
+    display: block;
+}
+.mui-page .mui-table-view:first-child {
+    margin-top: 15px;
+}
+.mui-page .mui-table-view:last-child {
+    margin-bottom: 30px;
+}
+.mui-table-view {
+    margin-top: 10px;
+}
+
+.mui-table-view span.mui-pull-right {
+    color: #999;
+}
+.mui-table-view-divider {
+    background-color: #efeff4;
+    font-size: 14px;
+}
+.mui-table-view-divider:before,
+.mui-table-view-divider:after {
+    height: 0;
+}
+.head {
+    height: 40px;
+}
+#head {
+    line-height: 40px;
+}
+.head-img {
+    width: 20px;
+    height: 20px;
+    /*margin-top: 8px;*/
+}
+#head-img1 {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+}
+.update {
+    font-style: normal;
+    color: #999999;
+    margin-right: -25px;
+    font-size: 15px
+}
+.mui-fullscreen {
+    position: fixed;
+    z-index: 20;
+    background-color: #000;
+}
+.mui-ios .mui-navbar .mui-bar .mui-title {
+    position: static;
+}
+/*问题反馈在setting页面单独的css*/
+#feedback .mui-popover{
+    position: fixed;
+}
+#feedback .mui-table-view:last-child {
+    margin-bottom: 0px;
+}
+#feedback .mui-table-view:first-child {
+    margin-top: 0px;
+}
+
+.mui-plus.mui-plus-stream .mui-stream-hidden{
+    display: none !important;
+}
+/*拷贝过来的CSS结束*/
+
+.mui-media-body
+{
+
+    /*padding-top: 6.5px;*/
+    padding-top: 0px;
+}
+.card-content-delete{
+    width: 20px;
+    height: 20px;
+    position: inherit;
+    bottom: 36px;
+    right: 10px;
+    float: right;
+}
+
+
+.card-container
+{
+    width: 94%;
+    height: 258px;
+    margin: 0 auto;
+}
+
+
+.card-container-image img{
+    border-radius:10px;
+}
+
+
+.card-container-txt h5{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-container-txt
+{
+    padding-left: 2px;
+}
+.home-nav
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background-color: #fafafa;
+    border-top: 1px solid #c3c3c3;
+}
+
+.home-ico
+{
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 100%;
+    /*margin: 0 auto;*/
+}
+
+.home-ico img{
+    /*width: 37%;*/
+    max-width: 37%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.index-zhuye
+{
+    /*display: block;*/
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    bottom: 64px;
+    background-color: #FE5454;
+    width: 170px;
+    height: 44px;
+    border-radius: 30px;
+    font-size:16px;
+    color: #fff;
+}
+.index-zhuye-txt
+{
+    line-height: 44px;
+    color: #fff;
+}
+.index-zhuye-img
+{
+    margin-top: 14px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
