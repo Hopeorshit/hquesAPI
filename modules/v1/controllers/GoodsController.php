@@ -121,7 +121,7 @@ class GoodsController extends BaseActiveController
         $offset = $pageSize * ($page - 1);
         $goods = GoodsModel::find()->where(['price' => 0, 'status' => 1])->
         with('user')->orderBy('created DESC')->asArray()->offset($offset)->limit($pageSize)->all();
-        return self::success($goods);
+        return self::success(["list"=>$goods]);
     }
 
     /**

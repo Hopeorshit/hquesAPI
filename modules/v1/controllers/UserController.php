@@ -66,7 +66,7 @@ class UserController extends BaseActiveController
         $uid = UserTokenService::getCurrentTokenVar('uid');
         $needs = NeedsModel::find()->where(['uid' => $uid, 'status' => [0, 1]])->
         orderBy('created DESC')->offset($offset)->limit($pageSize)->all();
-        return self::success($needs);
+        return self::success(["list"=>$needs]);
     }
 
     /**
@@ -80,7 +80,7 @@ class UserController extends BaseActiveController
         $uid = UserTokenService::getCurrentTokenVar('uid');
         $goods = GoodsModel::find()->where(['uid' => $uid, 'status' => 1])->
         orderBy('created DESC')->offset($offset)->limit($pageSize)->all();
-        return self::success($goods);
+        return self::success(["list"=>$goods]);
     }
 
     /**
@@ -93,7 +93,7 @@ class UserController extends BaseActiveController
         $uid = UserTokenService::getCurrentTokenVar('uid');
         $want = WantModel::find()->where(['uid' => $uid, 'status' => 1])->with('goods')
             ->orderBy('created DESC')->asArray()->offset($offset)->limit($pageSize)->all();
-        return self::success($want);
+        return self::success(["list"=>$want]);
     }
 
 

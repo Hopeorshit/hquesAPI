@@ -33,7 +33,7 @@ class CategoryController extends BaseActiveController
             $goods = GoodsModel::find()->where(['category_id' => $categoryID, 'status' => 1])->with('user', 'images')
                 ->orderBy('created DESC')->asArray()->offset($offset)->limit($pageSize)->all();
         }
-        return self::success($goods);
+        return self::success(["list"=>$goods]);
     }
 
 
